@@ -4,9 +4,9 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || "n", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/uYNW24ZAs7", //Support Server Link
-  Token: process.env.Token || "ODY0ODcwMjM5OTc0NzE5NDk5.YO7vLQ.7KULJ1hoji05DHu8v6w3_xvaNR4", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "864870239974719499", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "g70ZmpEGXb6R_AYv_gu-5OFxMt9JpkxM", //Discord Client Secret
+  Token: process.env.Token || "", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
   "24/7": false, //If you want the bot to be stay in the vc 24/7
@@ -24,15 +24,6 @@ module.exports = {
     pass: "youshallnotpass", 
   },
   
-  //Alternate Lavalink
-  /*
-  Lavalink: {
-    id: "Main",
-    host: "lava.sudhan.tech",
-    port: 1234,
-    pass: "CodingWithSudhan", 
-  },
-  */
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {

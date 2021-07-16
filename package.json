@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SudhanPlayz/Discord-MusicBot.git"
+    "url": "https://github.com/Professor-Nobody/advanced-music"
   },
   "engines": {
     "node": "14.x"
@@ -25,9 +25,9 @@
   "author": "Professor Nobody",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/SudhanPlayz/Discord-MusicBot/issues"
+    "url": "https://github.com/Professor-Nobody/advanced-music/issues"
   },
-  "homepage": "https://github.com/SudhanPlayz/Discord-MusicBot#readme",
+  "homepage": "https://github.com/Professor-Nobody/advanced-music",
   "dependencies": {
     "colors": "^1.4.0",
     "cpu-stat": "^2.0.1",
